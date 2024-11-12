@@ -1,0 +1,67 @@
+/* For small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .links {
+        width: 100%;
+        transform: rotate(0);
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .scroll {
+        transform: rotate(0);
+        bottom: 50px;
+    }
+
+    .hero-section {
+        height: 80vh;
+    }
+
+    .ht-1, .ht-2 {
+        height: auto;
+    }
+
+    /* Adjust navbar font-size */
+    .navbar-nav li a {
+        font-size: 14px;
+    }
+}
+
+/* For medium devices (tablets, 600px to 1024px) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .links {
+        width: 400px;
+        transform: rotate(-90deg);
+        bottom: 300px;
+        left: -200px;
+    }
+
+    .scroll {
+        bottom: 200px;
+    }
+
+    .hero-section {
+        height: 90vh;
+    }
+
+    .ht-1, .ht-2 {
+        height: auto;
+    }
+}
+
+/* For large devices (desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+    .links {
+        width: 600px;
+        transform: rotate(-90deg);
+    }
+
+    .scroll {
+        transform: rotate(-180deg);
+        bottom: 300px;
+    }
+
+    .hero-section {
+        height: 100vh;
+    }
+}

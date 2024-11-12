@@ -1,0 +1,626 @@
+html {
+    scroll-behavior: ;
+}
+
+.bbg {
+    background-color: #1B2D37;
+}
+
+.pbr {
+    border: 4px solid blue;
+}
+
+.gbr {
+    border: 4px solid gold;
+}
+
+.rbr {
+    border: 4px solid red;
+}
+
+.wbr {
+    border: 1px solid white;
+}
+
+.ht-1 {
+    height: 370px;
+}
+.ht-2{
+    height: 645px;
+}
+
+.plbg {
+    background-color: rgb(191, 202, 206);
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: gold;
+}
+
+a.dropdown-item {
+    color: black;
+}
+
+div.links {
+    width: 600px;
+    transform: rotate(-90deg);
+    color: white;
+    bottom: 430px;
+    left: -240px;
+    /* border: 3px solid red; */
+}
+
+.links a {
+    list-style: none;
+    text-decoration: none;
+}
+
+div.scroll {
+    width: 50px;
+    transform: rotate(-180deg);
+    color: white;
+    bottom: 300px;
+    /* right: 240px; */
+    position: absolute;
+    /* border: 3px solid green; */
+    right: 5px !important;
+
+}
+
+.main-con {
+    margin-top: ;
+    height: 100vh;
+}
+
+.w-br {
+    border: 2px solid rgb(94, 255, 0);
+}
+
+.navbar-nav li a {
+    font-size: 17px;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.hero-section {
+    height: 100vh;
+    /* width: 90%; */
+    animation: backgroundimg 15s ease-in infinite;
+
+    background-position: center;
+
+
+}
+
+.h-b {
+    position: relative;
+}
+
+.h-b:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.539);
+    /* border-radius: 16px; */
+    /* z-index: 1; */
+}
+
+@keyframes backgroundimg {
+    0% {
+        background-image: url('hero_bg_1_1.png');
+        background-size: 115%;
+
+    }
+
+    25% {
+        background-image: url('hero_bg_1_1.png');
+        background-size: 125%;
+    }
+
+
+    30% {
+        background-image: url('hero_bg_1_2.png');
+        background-size: 115%;
+    }
+
+    55% {
+        background-image: url('hero_bg_1_2.png');
+        background-size: 125%;
+        /* transition: 10s ease-in-out; */
+    }
+
+    60% {
+        background-image: url('hero_bg_1_3.png');
+        background-size: 115%;
+        /* transition: 10s ease-in-out; */
+    }
+
+    90% {
+        background-image: url('hero_bg_1_3.png');
+        background-size: 125%;
+    }
+
+    100% {
+        background-image: url('hero_bg_1_1.png');
+        background-size: 110%;
+
+    }
+
+}
+
+
+/* .social-media-icons a {
+    text-decoration: none;
+    list-style: none;
+} */
+
+.left-1 {
+    transform: translateY(-110%);
+    opacity: 0;
+    animation: text-anime 15s ease-in-out infinite;
+    color: white;
+    /* border: 2px solid red; */
+}
+
+.left-2 {
+    transform: translateY(-110%);
+    animation: text-anime 15s ease-in-out infinite;
+    color: white;
+    animation-delay: 4.5s;
+
+}
+
+.left-3 {
+    transform: translateY(-110%);
+    animation: text-anime 15s ease-in-out infinite;
+    color: white;
+    animation-delay: 9s;
+
+}
+
+@keyframes text-anime {
+    0% {
+        transform: translateY(0%);
+        opacity: 0;
+    }
+
+    8% {
+        transform: translateY(50%);
+        opacity: 1;
+    }
+
+    24% {
+        transform: translateY(50%);
+    }
+
+    28% {
+        transform: translateY(-110%);
+    }
+
+    100% {
+        transform: translateY(-110%);
+
+    }
+}
+
+.play-anime {
+    top: 0;
+    left: 0;
+    border: 2px solid rgba(255, 255, 255, 0.626);
+    animation-name: play-anime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.play-anime:nth-child(2) {
+    animation-delay: 1s;
+}
+
+@keyframes play-anime {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.8);
+    }
+}
+
+.hero-button {
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+
+.hero-button:hover {
+    border-radius: 40px;
+    transition: .3s linear;
+}
+
+.p-anime {
+    transform: translateY(400%);
+    animation: pr-anime 15s ease-in-out infinite;
+    color: white;
+    /* animation-delay: 9s; */
+    position: absolute;
+    top: 60%;
+
+}
+
+p.p-anime2 {
+    transform: translateY(400%);
+    animation: pr-anime 15s ease-in-out infinite;
+    color: white;
+    position: absolute;
+    top: 60%;
+    animation-delay: 4.5s !important;
+
+}
+
+p.p-anime3 {
+    transform: translateY(400%);
+    animation: pr-anime 15s ease-in-out infinite;
+    color: white;
+    top: 60%;
+    position: absolute;
+    animation-delay: 9s;
+
+}
+
+/* .p-anime:nth-child(2){
+    animation-delay: 4.5s;
+}
+
+.p-anime:nth-child(3){
+    animation-delay: 9s;
+} */
+
+@keyframes pr-anime {
+    0% {
+        transform: translateY(150%);
+        opacity: 0;
+    }
+
+    8% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+
+    24% {
+        transform: translateY(0%);
+    }
+
+    28% {
+        transform: translateY(300%);
+    }
+
+    100% {
+        transform: translateY(300%);
+
+    }
+}
+
+.section-2 {
+    background-color: #1B2D37;
+}
+
+.About-img-1 {
+    overflow: hidden;
+    mask-size: 100% 100%;
+    mask-image: url('about-1-mask.png');
+}
+
+.cardss {
+    height: 250px;
+}
+
+.cardss img {
+    transition: .2s linear;
+}
+
+.cardss:hover img {
+    transform: scaleX(-1);
+    transition: .2s linear;
+
+}
+
+.project-sec {
+    /* height: 90vh; */
+    background-image: url(project-bg-1-1-1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.project-sec:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.399);
+}
+
+.project-right {
+    mask-image: url(project-card1-img-mask.png);
+    mask-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+    animation-name: imageslider;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imageslider {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    70% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    95% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.img::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    width: 75%;
+    height: 75%;
+    background-size: cover;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.516);
+    background-image: url(project_shape1_1.png);
+    transition: .2s linear;
+    mask-image: url(project-card1-img-mask.png);
+    mask-size: 100% 100%;
+}
+
+.img:hover:before {
+    opacity: 1;
+    transition: .2s linear;
+}
+
+.img {
+    /* border: 5px solid red; */
+    width: 90%;
+    mask-image: url(project-card1-img-mask.png);
+    mask-size: 100% 100%;
+}
+
+.img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(212, 246, 221);
+    background: linear-gradient(140deg, rgba(212, 246, 221, 0) 40%, rgba(255, 255, 255, 0.482) 50%, rgba(243, 251, 246, 0) 65%);
+    z-index: 111;
+}
+
+.img:hover::after {
+    left: 100%;
+    transition: .4s linear;
+}
+
+.cardz-sec {
+    overflow: hidden;
+    position: relative;
+   
+}
+.cardz{
+    height: 250px;
+    animation-name: cardslider;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+.cardz-img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardz-img1{
+    background-image: url(aminities1-1.png);
+    background-size: cover;
+}
+.cardz-img2{
+    background-image: url(aminities1-2.png);
+    background-size: cover;
+}
+.cardz-img3{
+    background-image: url(aminities1-3.png);
+    background-size: cover;
+}
+.cardz-img4{
+    background-image: url(aminities1-4.png);
+    background-size: cover;
+}
+.cardz-img5{
+    background-image: url(aminities1-5.png);
+    background-size: cover;
+}
+.cardz-img6{
+    background-image: url(aminities1-6.png);
+    background-size: cover;
+}
+
+.cardz img {
+    z-index: 111111;
+    transition: .2s linear;
+}
+.cardz-img::before{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    mask-size: 100% 100%;
+    opacity: 1;
+    mask-image: url('aminities-shape1.png');
+    background-color:  rgb(18, 51, 71);
+}
+
+.cardz:hover img {
+    transform: scaleX(-1);
+    transition: .2s linear;
+
+}
+.cardz-img:hover:before {
+    opacity: 0.2;
+    transition: .2s linear;
+}
+@keyframes cardslider {
+    0% {
+        transform: translateX(0);
+    }
+    11% {
+        transform: translateX(0);
+    }
+
+    16% {
+        transform: translateX(-100%);
+    }
+    26% {
+        transform: translateX(-100%);
+    }
+
+    33% {
+        transform: translateX(-200%);
+    }
+    44% {
+        transform: translateX(-200%);
+    }
+
+    50% {
+        transform: translateX(-300%);
+    }
+    60% {
+        transform: translateX(-300%);
+    }
+
+    66% {
+        transform: translateX(-400%);
+    }
+
+    78% {
+        transform: translateX(-400%);
+    }
+
+    83% {
+        transform: translateX(-500%);
+    }
+    95% {
+        transform: translateX(-500%);
+    }
+
+    100% {
+        transform: translateX(-600%);
+    }
+}
+.team-card {
+    width: 420px;
+    height: 450px;
+    /* border: 4px solid green; */
+
+}
+.team-card1::before{
+    content: "";
+    height: 80%;
+    width: 80%;
+    top: 0;
+    left: 0;
+    border: 4px solid gold;
+    position: absolute;
+    background-color: #1b2d3783;
+    
+
+}
+.team-card1{
+    height: 100%;
+    width: 100%;
+    background: url(team_1_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.team-card2{
+    height: 100%;
+    width: 100%;
+    background: url(team_1_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.team-card3{
+    height: 100%;
+    width: 100%;
+    background: url(team_1_3.png);
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+.left-sec img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgb(212, 246, 221);
+    background: linear-gradient(140deg, rgba(212, 246, 221, 0) 40%, rgba(255, 255, 255, 0.482) 50%, rgba(243, 251, 246, 0) 65%);
+    z-index: 111;
+}
+
+.left-sec img:hover::before {
+    left: 100%;
+    transition: .4s linear;
+}
